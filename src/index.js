@@ -7,4 +7,3 @@ function component() {
 }
 
 document.body.appendChild(component());
-console.log('I got this');
