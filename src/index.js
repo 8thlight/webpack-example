@@ -2,6 +2,7 @@ import _ from 'lodash';
 
 function component() {
     let element = document.createElement('div');
+    element |> console.log;
 
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
